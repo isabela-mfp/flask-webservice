@@ -1,0 +1,13 @@
+services:
+  web:
+    image: api-webservice 
+    build: . 
+    ports:
+      - "32187:32187"
+    volumes:
+      - .:/app 
+    environment:
+      FLASK_DEBUG: "true"
+    container_name: webservice-container 
+    expose:
+      - "32187"
