@@ -41,11 +41,11 @@ Open the software downloaded and create a new HTTP Request. Select `POST` or `GE
 http://127.0.0.1:32187
 ```
 On the Query Params, create a new 'key' called `user_id` and assign a desired number to its value in front of it.
-Finally, click on `Send` button to send the request. The response will be shown on the field below the Query Params
+Finally, click on `Send` button to send the request. The response will be shown on the field below the Query Params.
 To test both `POST` and `GET` requests, you'll need to create one HTTP request for `POST` and then another one for `GET` because editing the existing request will cause the previous one to be canceled as it will only be finalized after all processing and data gathering. 
 
 ## Comments
 
 * Free account of Open Weather API has a limit of 60 cities per minute so the service also has a limit of 60 requests per minute.
-* The endpoint for Several Cities IDs on Open Weather API Several was deleted, it is not in the documentatio. The service calls the "request by city ID" for each city so the requests should take longer than expected to complete.
+* The endpoint for Several Cities IDs on Open Weather API was deleted, it is not in the documentation anymore. The service calls the "request by city ID" for each city so the requests should take longer than expected to complete.
 
